@@ -1,0 +1,9 @@
+.header {
+    color: var(--foreground);
+    background-color: #113;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #055;
+    font-size: medium;
+}
