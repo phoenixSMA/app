@@ -4,7 +4,7 @@ import styles from "./header.module.css";
 export default function Header() {
 	return (
 		<div>
-			<Link className={styles.header} href="/public">Home</Link>
+			<Link className={styles.header} href="/">Home</Link>
 		</div>
 	);
 }
