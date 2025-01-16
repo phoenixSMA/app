@@ -17,9 +17,9 @@ export default function SelectCompetition() {
 					id="competition-select"
 					className={styles.select}
 				>
-					<MenuItem id="E0" value="E0" className={styles.selectItem}>England Premier League</MenuItem>
-					<MenuItem id="D1" value="D1" className={styles.selectItem}>Germany Bundesliga</MenuItem>
-					<MenuItem id="ES1" value="ES1" className={styles.selectItem}>Spain LaLiga</MenuItem>
+					<MenuItem id="E0" value="E0">England Premier League</MenuItem>
+					<MenuItem id="D1" value="D1">Germany Bundesliga</MenuItem>
+					<MenuItem id="ES1" value="ES1">Spain LaLiga</MenuItem>
 				</Select>
 			</FormControl>
 		</Box>
