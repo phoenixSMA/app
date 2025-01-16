@@ -1,5 +1,5 @@
 .select {
-    color: var(--foreground);
+    color: inherit;
     background-color: var(--background);
     border: 1px solid var(--foreground);
 }
