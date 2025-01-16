@@ -1,11 +1,9 @@
-import { Box, FormControl, InputLabel, MenuItem, Select } from '@mui/material';
+import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 import styles from './select.module.css'
 
 export default function SelectCompetition() {
 	return (
-		<Box
-			sx={{ padding: '1rem' }}
-		>
+		<div>
 			<FormControl fullWidth>
 				<InputLabel
 					id="competition-select-label"
@@ -22,6 +20,6 @@ export default function SelectCompetition() {
 					<MenuItem id="ES1" value="ES1">Spain LaLiga</MenuItem>
 				</Select>
 			</FormControl>
-		</Box>
+		</div>
 	);
 }
