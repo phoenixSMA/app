@@ -1,5 +1,5 @@
 import { Box, FormControl, InputLabel, MenuItem, Select } from '@mui/material';
-import styles from './select-competition.module.css'
+import styles from './select.module.css'
 
 export default function SelectCompetition() {
 	return (
