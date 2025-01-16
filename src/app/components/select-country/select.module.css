@@ -6,7 +6,8 @@
 
 .selectLabel {
     color: var(--foreground);
-    background-color: var(--background);
+    background-color: green;
     padding-left: 4px;
     padding-right: 4px;
+    border: 1px solid red;
 }
