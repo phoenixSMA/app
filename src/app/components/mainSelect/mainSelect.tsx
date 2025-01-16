@@ -32,9 +32,6 @@ export default function MainSelect(props: SelectProps) {
 					className={styles.select}
 				>
 					{menuItems}
-					{/*<MenuItem id="E0" value="E0">England Premier League</MenuItem>*/}
-					{/*<MenuItem id="D1" value="D1">Germany Bundesliga</MenuItem>*/}
-					{/*<MenuItem id="ES1" value="ES1">Spain LaLiga</MenuItem>*/}
 				</Select>
 			</FormControl>
 		</div>
