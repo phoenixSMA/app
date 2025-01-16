@@ -3,7 +3,9 @@ import styles from './select.module.css'
 
 export default function SelectCompetition() {
 	return (
-		<div>
+		<div
+			className={`${styles.selectContainer}`}
+		>
 			<FormControl fullWidth>
 				<InputLabel
 					id="competition-select-label"
