@@ -1,6 +1,6 @@
 .select {
-    color: violet;
-    background-color: white;
+    color: var(--foreground);
+    background-color: var(--background);
     border: 1px solid var(--foreground);
 }
 
