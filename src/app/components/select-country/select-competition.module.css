@@ -1,0 +1,12 @@
+.select {
+    color: var(--foreground);
+    background-color: var(--background);
+    border: 1px solid var(--foreground);
+}
+
+.selectLabel {
+    color: var(--foreground);
+    background-color: var(--background);
+    padding-left: 4px;
+    padding-right: 4px;
+}
