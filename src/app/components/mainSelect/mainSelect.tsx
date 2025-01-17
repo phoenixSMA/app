@@ -23,13 +23,13 @@ export default function MainSelect(props: SelectProps) {
 			<FormControl fullWidth>
 				<InputLabel
 					id="competition-select-label"
-					className={styles.selectLabel}
+					className={`${styles.selectLabel}`}
 				>Competition
 				</InputLabel>
 				<Select
 					labelId="competition-select-label"
 					id="competition-select"
-					className={styles.select}
+					className={`${styles.select}`}
 				>
 					{menuItems}
 				</Select>
