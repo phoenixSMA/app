@@ -24,7 +24,6 @@ export default function MainSelect(props: SelectProps) {
 				<InputLabel
 					id="competition-select-label"
 					className={styles.selectLabel}
-					sx={{ color: 'blue' }}
 				>Competition
 				</InputLabel>
 				<Select
