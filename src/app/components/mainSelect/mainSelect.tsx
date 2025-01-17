@@ -1,5 +1,5 @@
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
-import styles from './mainSelect.module.css'
+import styles from '@/app/components/mainSelect/mainSelect.module.css'
 
 export interface SelectItem {
 	name: string;
