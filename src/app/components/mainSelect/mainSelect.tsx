@@ -1,5 +1,5 @@
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
-import styles from '@/app/components/mainSelect/mainSelect.module.css'
+import styles from './mainSelect.module.css'
 
 export interface SelectItem {
 	name: string;
@@ -34,6 +34,14 @@ export default function MainSelect(props: SelectProps) {
 					{menuItems}
 				</Select>
 			</FormControl>
+			{/*<style jsx> {`*/}
+            {/*    .selectLabel {*/}
+            {/*        color: darkred;*/}
+            {/*        background-color: #1a1a1a;*/}
+            {/*        padding-left: 5px;*/}
+            {/*        padding-right: 5px;*/}
+            {/*    }*/}
+			{/*`}</style>*/}
 		</div>
 	);
 }
