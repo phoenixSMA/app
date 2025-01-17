@@ -1,16 +1,18 @@
 .select {
-    color: #aaa;
-    background-color: #1a1a1a;
+    color: var(--foreground);
+    background-color: var(--background);
     border: 1px solid var(--foreground);
 }
 
 .selectLabel {
-    color: darkred;
-    background-color: #1a1a1a;
+    color: var(--foreground);
+    background-color: var(--background);
     padding-left: 5px;
     padding-right: 5px;
 }
 
 .selectContainer {
+    color: var(--foreground);
+    background-color: var(--background);
     padding: 1rem;
 }

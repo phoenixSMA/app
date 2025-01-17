@@ -1,4 +1,5 @@
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
+
 import styles from './mainSelect.module.css'
 
 export interface SelectItem {
@@ -26,7 +27,7 @@ export default function MainSelect(props: SelectProps) {
 				<InputLabel
 					id="competition-select-label"
 					className={styles.selectLabel}
-				>Competition
+				>Select Competition
 				</InputLabel>
 				<Select
 					labelId="competition-select-label"
