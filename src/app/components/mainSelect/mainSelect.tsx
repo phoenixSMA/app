@@ -24,6 +24,7 @@ export default function MainSelect(props: SelectProps) {
 				<InputLabel
 					id="competition-select-label"
 					className={styles.selectLabel}
+					sx={{ color: 'blue' }}
 				>Competition
 				</InputLabel>
 				<Select
@@ -34,14 +35,6 @@ export default function MainSelect(props: SelectProps) {
 					{menuItems}
 				</Select>
 			</FormControl>
-			{/*<style jsx> {`*/}
-            {/*    .selectLabel {*/}
-            {/*        color: darkred;*/}
-            {/*        background-color: #1a1a1a;*/}
-            {/*        padding-left: 5px;*/}
-            {/*        padding-right: 5px;*/}
-            {/*    }*/}
-			{/*`}</style>*/}
 		</div>
 	);
 }
