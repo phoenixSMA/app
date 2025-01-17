@@ -16,6 +16,8 @@ export default function MainSelect(props: SelectProps) {
 	const menuItems = items.map(
 		(item, idx) => (<MenuItem key={idx.toString()} value={item.value}>{item.name}</MenuItem>));
 
+	console.log(styles);
+
 	return (
 		<div
 			className={styles.selectContainer}
@@ -29,6 +31,7 @@ export default function MainSelect(props: SelectProps) {
 				<Select
 					labelId="competition-select-label"
 					id="competition-select"
+					defaultValue=''
 					className={styles.select}
 				>
 					{menuItems}

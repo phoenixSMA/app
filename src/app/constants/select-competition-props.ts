@@ -27,11 +27,11 @@ export const selectCompetitionProps: SelectProps = {
 			value: 'SP1',
 		},
 		{
-			name: 'Spain LaLiga2',
+			name: 'Spain Segunda',
 			value: 'SP2',
 		},
 		{
-			name: 'Germany Bundesliga',
+			name: 'Germany 1.Bundesliga',
 			value: 'D1',
 		},
 		{
@@ -39,11 +39,11 @@ export const selectCompetitionProps: SelectProps = {
 			value: 'D2',
 		},
 		{
-			name: 'Italiy Setia A',
+			name: 'Italiy Seria A',
 			value: 'I1',
 		},
 		{
-			name: 'Italiy Setia B',
+			name: 'Italiy Seria B',
 			value: 'I2',
 		},
 		{
