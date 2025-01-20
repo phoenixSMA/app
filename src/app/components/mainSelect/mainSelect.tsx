@@ -1,43 +1,42 @@
-import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
-
+'use client'
 import styles from './mainSelect.module.css'
+import { ChangeEvent } from 'react';
 
 export interface SelectItem {
-	name: string;
+	label: string;
 	value: string;
 }
 
 export interface SelectProps {
+	label?: string;
 	items: SelectItem[];
+	onChange: (event: ChangeEvent<HTMLSelectElement>) => void;
 }
 
 export default function MainSelect(props: SelectProps) {
-	const { items = [] } = props;
+	const { label, items = [], onChange } = props;
 
-	const menuItems = items.map(
-		(item, idx) => (<MenuItem key={idx.toString()} value={item.value}>{item.name}</MenuItem>));
+	let labelElement;
+	if (label !== undefined) {
+		labelElement = (<div style={{ display: 'inline-block' }} className={styles.selectLabel}>{label}</div>);
+	}
 
-	console.log(styles);
+
+	const options = items.map(item => (
+		<option key={item.value} value={item.value}>{item.label}</option>
+	))
 
 	return (
 		<div
 			className={styles.selectContainer}
 		>
-			<FormControl fullWidth>
-				<InputLabel
-					id="competition-select-label"
-					className={styles.selectLabel}
-				>Select Competition
-				</InputLabel>
-				<Select
-					labelId="competition-select-label"
-					id="competition-select"
-					defaultValue=''
-					className={styles.select}
-				>
-					{menuItems}
-				</Select>
-			</FormControl>
+			{ labelElement !== undefined ? labelElement : null }
+			<select
+				className={styles.select}
+				onChange={onChange}
+			>
+				{options}
+			</select>
 		</div>
 	);
 }
